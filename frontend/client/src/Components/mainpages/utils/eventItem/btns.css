@@ -1,0 +1,35 @@
+ #btn_edit {
+    width: 100px;
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px 0px 0px 50px;
+  } 
+
+   #btn_delete {
+    width: 100px;
+    background-color: rgb(255, 0, 0); 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px 50px 50px 0px;
+  } 
+
+#btn_edit:hover {
+  background-color: rgb(0, 0, 105);
+  border-color: rgb(0, 0, 105);
+}
+
+#btn_delete:hover {
+  background-color: rgb(145, 0, 0);
+  border-color: rgb(145, 0, 0);
+}

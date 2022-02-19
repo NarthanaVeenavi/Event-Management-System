@@ -1,0 +1,46 @@
+#table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table1 td, #table1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table1 tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table1 tr:hover {background-color: #ddd;}
+  
+  #table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(137, 208, 255);
+    color: white;
+  }
+
+  #button1 {
+    width: 175px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-left: 34cm;
+    margin-top: 0.5cm;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgb(6, 6, 80);
+
+  }
+  
+  #button1:hover {
+    background-color: rgb(6, 6, 80);
+    color: white;
+  }
+  
+  
+

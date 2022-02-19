@@ -1,0 +1,75 @@
+.create_event{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.create_event form{
+    max-width: 500px;
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+    margin-top: 0.6cm;
+    border-radius: 5px;
+    height: 550px;
+    background: rgba(185, 185, 185, 0.432)
+}
+
+.create_event form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.create_event form .row :focus{
+    border-color: #072344;
+   
+}
+
+.create_event form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.create_event form button{
+    width: 150px;
+    height: 40px;
+    background: #072344;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-left: 4cm;
+    margin-top: 0.5cm;
+    border-radius: 10px;
+}
+
+.create_event form button:hover {
+    background: #064185;
+    border:#072344;
+  }
+
+#createeventform {
+    border: solid rgb(207, 205, 205) 1px;
+    padding: 10px 50px 30px 50px;
+}
+
+
+#btncreate{
+    margin-top: 0.5cm;
+    margin-left: 2.5cm;
+    position: absolute;
+
+}
+
+#eventdwn{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+    border-color: rgb(212, 212, 219);
+}

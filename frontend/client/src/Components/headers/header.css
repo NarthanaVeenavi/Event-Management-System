@@ -1,0 +1,55 @@
+header{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid rgb(221, 221, 221);
+    border-top: 1px solid rgb(245, 242, 242);
+}
+
+header .logo{
+    flex: 1;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    background-size: contain;
+}
+
+header a{
+    text-transform: uppercase;
+    color: rgb(70, 69, 69);
+}
+
+header ul li{
+    display: inline-block;
+    opacity: 0.9;
+    padding: 0 20px;
+}
+
+header ul li:hover{
+    opacity: 8;
+}
+
+.menu{
+    display: none;
+}
+
+#logout:hover{
+    background-color: #08f5e1;
+    border-radius: 10px;
+}
+
+#logout{
+    border: 1px solid #28c1e4;
+    border-radius: 10px;
+    padding: 10px 10px;
+   
+}
+.links:hover{
+    color: blue;
+    font-style: bold;
+}
